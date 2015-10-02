@@ -17,6 +17,17 @@ class ViewController: UIViewController {
     @IBAction func swipedUp(sender:UISwipeGestureRecognizer){
         amount+=1;
         AmountLabel?.text=String(amount);
+        
+        switch amount % 2 {
+        case 1:
+            //odd
+            self.view.backgroundColor=UIColor.redColor();
+        case 0:
+            //odd
+            self.view.backgroundColor=UIColor.blueColor();
+        default:
+            break
+        }
     }
     
     @IBAction func swipedDown(sender:UISwipeGestureRecognizer){
@@ -24,12 +35,33 @@ class ViewController: UIViewController {
             amount-=1;
         }
         AmountLabel?.text=String(amount);
+        
+        switch amount % 2 {
+        case 1:
+            //odd
+            self.view.backgroundColor=UIColor.redColor();
+        case 0:
+            //odd
+            self.view.backgroundColor=UIColor.blueColor();
+        default:
+            break
+        }
     }
-    
     
     @IBAction func pressedPlus(sender:UIButton){
         amount+=1;
         AmountLabel?.text=String(amount);
+        
+        switch amount % 2 {
+        case 1:
+            //odd
+            self.view.backgroundColor=UIColor.redColor();
+        case 0:
+            //odd
+            self.view.backgroundColor=UIColor.blueColor();
+        default:
+            break
+        }
     }
     
     @IBAction func pressedMinus(sender:UIButton){
@@ -37,11 +69,33 @@ class ViewController: UIViewController {
             amount-=1;
         }
         AmountLabel?.text=String(amount);
+        
+        switch amount % 2 {
+        case 1:
+            //odd
+            self.view.backgroundColor=UIColor.redColor();
+        case 0:
+            //odd
+            self.view.backgroundColor=UIColor.blueColor();
+        default:
+            break
+        }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         AmountLabel?.text=String(amount);
+        
+        switch amount % 2 {
+        case 1:
+            //odd
+            self.view.backgroundColor=UIColor.redColor();
+        case 0:
+            //odd
+            self.view.backgroundColor=UIColor.blueColor();
+        default:
+            break
+        }
     }
 
     override func didReceiveMemoryWarning() {
