@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFAC7A881BE400B60087BB2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC7A871BE400B60087BB2D /* AppDelegate.swift */; };
+		AFAC7A8A1BE400B60087BB2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC7A891BE400B60087BB2D /* ViewController.swift */; };
+		AFAC7A8D1BE400B60087BB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAC7A8B1BE400B60087BB2D /* Main.storyboard */; };
+		AFAC7A8F1BE400B60087BB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAC7A8E1BE400B60087BB2D /* Assets.xcassets */; };
+		AFAC7A921BE400B60087BB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAC7A901BE400B60087BB2D /* LaunchScreen.storyboard */; };
+		AFAC7A9D1BE400B60087BB2D /* Mole_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC7A9C1BE400B60087BB2D /* Mole_ConverterTests.swift */; };
+		AFAC7AA81BE400B60087BB2D /* Mole_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC7AA71BE400B60087BB2D /* Mole_ConverterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFAC7A991BE400B60087BB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFAC7A7C1BE400B60087BB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAC7A831BE400B60087BB2D;
+			remoteInfo = "Mole Converter";
+		};
+		AFAC7AA41BE400B60087BB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFAC7A7C1BE400B60087BB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAC7A831BE400B60087BB2D;
+			remoteInfo = "Mole Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFAC7A841BE400B60087BB2D /* Mole Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mole Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAC7A871BE400B60087BB2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFAC7A891BE400B60087BB2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFAC7A8C1BE400B60087BB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFAC7A8E1BE400B60087BB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFAC7A911BE400B60087BB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFAC7A931BE400B60087BB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAC7A981BE400B60087BB2D /* Mole ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mole ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAC7A9C1BE400B60087BB2D /* Mole_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mole_ConverterTests.swift; sourceTree = "<group>"; };
+		AFAC7A9E1BE400B60087BB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAC7AA31BE400B60087BB2D /* Mole ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mole ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAC7AA71BE400B60087BB2D /* Mole_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mole_ConverterUITests.swift; sourceTree = "<group>"; };
+		AFAC7AA91BE400B60087BB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFAC7A811BE400B60087BB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAC7A951BE400B60087BB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAC7AA01BE400B60087BB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFAC7A7B1BE400B60087BB2D = {
+			isa = PBXGroup;
+			children = (
+				AFAC7A861BE400B60087BB2D /* Mole Converter */,
+				AFAC7A9B1BE400B60087BB2D /* Mole ConverterTests */,
+				AFAC7AA61BE400B60087BB2D /* Mole ConverterUITests */,
+				AFAC7A851BE400B60087BB2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFAC7A851BE400B60087BB2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC7A841BE400B60087BB2D /* Mole Converter.app */,
+				AFAC7A981BE400B60087BB2D /* Mole ConverterTests.xctest */,
+				AFAC7AA31BE400B60087BB2D /* Mole ConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFAC7A861BE400B60087BB2D /* Mole Converter */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC7A871BE400B60087BB2D /* AppDelegate.swift */,
+				AFAC7A891BE400B60087BB2D /* ViewController.swift */,
+				AFAC7A8B1BE400B60087BB2D /* Main.storyboard */,
+				AFAC7A8E1BE400B60087BB2D /* Assets.xcassets */,
+				AFAC7A901BE400B60087BB2D /* LaunchScreen.storyboard */,
+				AFAC7A931BE400B60087BB2D /* Info.plist */,
+			);
+			path = "Mole Converter";
+			sourceTree = "<group>";
+		};
+		AFAC7A9B1BE400B60087BB2D /* Mole ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC7A9C1BE400B60087BB2D /* Mole_ConverterTests.swift */,
+				AFAC7A9E1BE400B60087BB2D /* Info.plist */,
+			);
+			path = "Mole ConverterTests";
+			sourceTree = "<group>";
+		};
+		AFAC7AA61BE400B60087BB2D /* Mole ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC7AA71BE400B60087BB2D /* Mole_ConverterUITests.swift */,
+				AFAC7AA91BE400B60087BB2D /* Info.plist */,
+			);
+			path = "Mole ConverterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFAC7A831BE400B60087BB2D /* Mole Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAC7AAC1BE400B60087BB2D /* Build configuration list for PBXNativeTarget "Mole Converter" */;
+			buildPhases = (
+				AFAC7A801BE400B60087BB2D /* Sources */,
+				AFAC7A811BE400B60087BB2D /* Frameworks */,
+				AFAC7A821BE400B60087BB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mole Converter";
+			productName = "Mole Converter";
+			productReference = AFAC7A841BE400B60087BB2D /* Mole Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFAC7A971BE400B60087BB2D /* Mole ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAC7AAF1BE400B60087BB2D /* Build configuration list for PBXNativeTarget "Mole ConverterTests" */;
+			buildPhases = (
+				AFAC7A941BE400B60087BB2D /* Sources */,
+				AFAC7A951BE400B60087BB2D /* Frameworks */,
+				AFAC7A961BE400B60087BB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFAC7A9A1BE400B60087BB2D /* PBXTargetDependency */,
+			);
+			name = "Mole ConverterTests";
+			productName = "Mole ConverterTests";
+			productReference = AFAC7A981BE400B60087BB2D /* Mole ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFAC7AA21BE400B60087BB2D /* Mole ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAC7AB21BE400B60087BB2D /* Build configuration list for PBXNativeTarget "Mole ConverterUITests" */;
+			buildPhases = (
+				AFAC7A9F1BE400B60087BB2D /* Sources */,
+				AFAC7AA01BE400B60087BB2D /* Frameworks */,
+				AFAC7AA11BE400B60087BB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFAC7AA51BE400B60087BB2D /* PBXTargetDependency */,
+			);
+			name = "Mole ConverterUITests";
+			productName = "Mole ConverterUITests";
+			productReference = AFAC7AA31BE400B60087BB2D /* Mole ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFAC7A7C1BE400B60087BB2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Brian Lin";
+				TargetAttributes = {
+					AFAC7A831BE400B60087BB2D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					AFAC7A971BE400B60087BB2D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AFAC7A831BE400B60087BB2D;
+					};
+					AFAC7AA21BE400B60087BB2D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AFAC7A831BE400B60087BB2D;
+					};
+				};
+			};
+			buildConfigurationList = AFAC7A7F1BE400B60087BB2D /* Build configuration list for PBXProject "Mole Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFAC7A7B1BE400B60087BB2D;
+			productRefGroup = AFAC7A851BE400B60087BB2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFAC7A831BE400B60087BB2D /* Mole Converter */,
+				AFAC7A971BE400B60087BB2D /* Mole ConverterTests */,
+				AFAC7AA21BE400B60087BB2D /* Mole ConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFAC7A821BE400B60087BB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAC7A921BE400B60087BB2D /* LaunchScreen.storyboard in Resources */,
+				AFAC7A8F1BE400B60087BB2D /* Assets.xcassets in Resources */,
+				AFAC7A8D1BE400B60087BB2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAC7A961BE400B60087BB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAC7AA11BE400B60087BB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFAC7A801BE400B60087BB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAC7A8A1BE400B60087BB2D /* ViewController.swift in Sources */,
+				AFAC7A881BE400B60087BB2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAC7A941BE400B60087BB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAC7A9D1BE400B60087BB2D /* Mole_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAC7A9F1BE400B60087BB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAC7AA81BE400B60087BB2D /* Mole_ConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFAC7A9A1BE400B60087BB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFAC7A831BE400B60087BB2D /* Mole Converter */;
+			targetProxy = AFAC7A991BE400B60087BB2D /* PBXContainerItemProxy */;
+		};
+		AFAC7AA51BE400B60087BB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFAC7A831BE400B60087BB2D /* Mole Converter */;
+			targetProxy = AFAC7AA41BE400B60087BB2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFAC7A8B1BE400B60087BB2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAC7A8C1BE400B60087BB2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFAC7A901BE400B60087BB2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAC7A911BE400B60087BB2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFAC7AAA1BE400B60087BB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFAC7AAB1BE400B60087BB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFAC7AAD1BE400B60087BB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mole Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Lin.Mole-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFAC7AAE1BE400B60087BB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mole Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Lin.Mole-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFAC7AB01BE400B60087BB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mole ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Lin.Mole-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mole Converter.app/Mole Converter";
+			};
+			name = Debug;
+		};
+		AFAC7AB11BE400B60087BB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mole ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Lin.Mole-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mole Converter.app/Mole Converter";
+			};
+			name = Release;
+		};
+		AFAC7AB31BE400B60087BB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mole ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Lin.Mole-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mole Converter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AFAC7AB41BE400B60087BB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mole ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Lin.Mole-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mole Converter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFAC7A7F1BE400B60087BB2D /* Build configuration list for PBXProject "Mole Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAC7AAA1BE400B60087BB2D /* Debug */,
+				AFAC7AAB1BE400B60087BB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAC7AAC1BE400B60087BB2D /* Build configuration list for PBXNativeTarget "Mole Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAC7AAD1BE400B60087BB2D /* Debug */,
+				AFAC7AAE1BE400B60087BB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFAC7AAF1BE400B60087BB2D /* Build configuration list for PBXNativeTarget "Mole ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAC7AB01BE400B60087BB2D /* Debug */,
+				AFAC7AB11BE400B60087BB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFAC7AB21BE400B60087BB2D /* Build configuration list for PBXNativeTarget "Mole ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAC7AB31BE400B60087BB2D /* Debug */,
+				AFAC7AB41BE400B60087BB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFAC7A7C1BE400B60087BB2D /* Project object */;
+}
